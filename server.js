@@ -13,6 +13,9 @@ router.get("/",function(req,res){
   res.sendFile(path + "index.html");
 });
 
+router.get("/archanaPage",function(req,res){
+  res.sendFile(path + "archanaPage.html");
+});
 
 
 app.use("/",router);
