@@ -10,4 +10,4 @@ PackageManager: Npm
 
 1. run npm install in the project folder
 2. npm start 
-
+3. Go to localhost:3000 
