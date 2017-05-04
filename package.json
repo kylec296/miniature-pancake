@@ -1,0 +1,23 @@
+{
+  "name": "miniature-pancake",
+  "version": "1.0.0",
+  "description": "Grey's HackAThon for learning new things",
+  "main": "index.js",
+  "scripts": {
+     "start" : "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylec296/miniature-pancake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylec296/miniature-pancake/issues"
+  },
+  "dependencies" : {
+    "express" : "latest"
+  },
+  "homepage": "https://github.com/kylec296/miniature-pancake#readme"
+}
