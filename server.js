@@ -3,6 +3,9 @@ var app = express();
 var router = express.Router();
 var path = __dirname + '/views/';
 
+app.use("/public", express.static(__dirname + "/public"));
+
+
 router.use(function (req,res,next) {
   console.log("/" + req.method);
   next();
