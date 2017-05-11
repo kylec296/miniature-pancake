@@ -4,7 +4,7 @@
   "description": "Grey's HackAThon for learning new things",
   "main": "index.js",
   "scripts": {
-     "start" : "node server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,8 +16,9 @@
   "bugs": {
     "url": "https://github.com/kylec296/miniature-pancake/issues"
   },
-  "dependencies" : {
-    "express" : "latest"
+  "dependencies": {
+    "express": "latest",
+    "fs": "0.0.1-security"
   },
   "homepage": "https://github.com/kylec296/miniature-pancake#readme"
 }
