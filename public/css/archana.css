@@ -1,0 +1,15 @@
+.main{
+	font-family: lucida console;
+	margin: 20px;
+}
+
+button{
+	margin-bottom: 100px;
+	margin-left: 100px;
+}
+
+#instructions{
+	margin-left: 100px;
+	font-style: italic;
+	color: #00ff00;
+}

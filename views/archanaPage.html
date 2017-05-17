@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="public/js/archanajs.js"></script>
+<link type = "text/css" rel="stylesheet" href="public/css/archana.css"/>
 </head>
 <body>
 <div>
@@ -23,8 +24,17 @@
 <br/>
 <div class="jumbotron"> <p>
 This is place to put content. You can put slider, short description about your website and place some links for navigation.
-</p></div>
-<button type="button" onclick="myFunction()">Try it</button>
+</p>
+</div>
+<div class="main">
+<p>
+  <label>Customer ID(s)*</label>
+      <input type="text" 
+             id = "myCustomers"/>
+             <p id="instructions"><em>Space seperated input ex: 38862 33026 30019</em></p>
+        </p>
+<button type="button" onclick="myFunction($('#myCustomers').val())">Submit</button>
+<p> * Mandatory field</p>
 </div>
 </body>
 </html>
