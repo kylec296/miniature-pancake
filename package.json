@@ -4,7 +4,7 @@
   "description": "Grey's HackAThon for learning new things",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,9 @@
   },
   "dependencies": {
     "express": "latest",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "nodemon": "^1.11.0",
+    "socket.io": "^2.0.1"
   },
   "homepage": "https://github.com/kylec296/miniature-pancake#readme"
 }
