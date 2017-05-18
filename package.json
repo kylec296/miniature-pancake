@@ -19,7 +19,8 @@
   "dependencies": {
     "express": "latest",
     "fs": "0.0.1-security",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "socket.io": "^2.0.1"
   },
   "homepage": "https://github.com/kylec296/miniature-pancake#readme"
 }
